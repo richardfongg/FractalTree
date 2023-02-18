@@ -10,6 +10,9 @@ public void setup()
 public void draw() 
 {   
   background(0);   
+  fill(255);
+  textSize(32);
+  text("Click!", 350, 100);
   stroke(#FFC0CB);   
   line(400,800,400,700);   
   drawBranches(400,700,(double)100,(double)(3*Math.PI/2));
